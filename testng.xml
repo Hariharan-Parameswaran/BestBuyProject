@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test.Tc1_navigatetobestbuy"/>
+      <class name="test.Tc2_validate"/>
+      <class name="test.Tc3_createAccount"/>
+      <class name="test.Tc3_signUp"/>
+      <class name="test.Tc4_navigateAllMenu"/>
+      <class name="test.Tc5_ValidateBottom"/>
+       <class name="test.Tc6_SearchItemToCart"/>
+      <class name="test.Tc7_ShopByDepartment"/>
+      <class name="test.Tc8_ShopByBrand"/>
+      <class name="test.Tc9_CheckOutAndPayment"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
